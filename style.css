@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{font-family: 'poppins', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+
+   
+    background-size: cover;
+    background-color: #012f356b;
+    background-position: center;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+   text-transform: capitalize;
+
+}
+
+.navigation a{
+    text-decoration: none;
+    margin: 5px;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-transform: uppercase;
+    
+}
+
+.navigation a:hover{
+    color: rgb(11, 20, 190);
+}
+
+body {
+    background-image: url("C:\\Users\\attam\\Desktop\\MyCourseProject\\new.jpg"); /* Add the path to your background image */
+    background-size:auto; /* Adjust to your needs */
+    image-resolution: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin:auto; /* Remove default body margin */
+    font-family: Arial, sans-serif; /* Specify a default font */
+}
+
+p1{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: aliceblue;
+font-size: x-large;
+position:absolute;
+top: 20%;
+left:50px;
+font-weight: 100;
+font-style:oblique;
+}
+
+p2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: x-large;
+    position:absolute;
+    top: 30%;
+    left:50px;
+    font-weight: 100;
+    font-style:oblique;}
+
+p3{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: aliceblue;
+        font-size: x-large;
+        position:absolute;
+        top: 40%;
+        left:50px;
+        font-weight: 100;
+        font-style:oblique;}
+
+        .linkedin-badge {
+            margin: 20px; /* Adjust margin as needed */
+            position: relative;
+            top: 500px;
+            left: 50px;
+        }
+        
+        /* Style the LinkedIn profile badge */
+        .LI-profile-badge {
+            display: inline-block;
+        }
+        
+        /* Style the link inside the badge */
+        .LI-simple-link {
+            text-decoration: none;
+            color: #ffffff; /* Set the desired text color */
+            font-weight: bold; /* Adjust font weight as needed */
+        }
